@@ -24,8 +24,5 @@ let package = Package(
         .target(
             name: "SwiftUIShakeGesture",
             dependencies: []),
-        .testTarget(
-            name: "SwiftUIShakeGestureTests",
-            dependencies: ["SwiftUIShakeGesture"]),
     ]
 )
